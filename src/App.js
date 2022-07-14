@@ -1,9 +1,17 @@
-import Logo from "./logo.svg";
+import "./App.css";
+import { useState, useEffect } from "react";
+import Header from "./components/Header";
+import products from "./product.json";
+import Product from "./components/Product";
 function App() {
+  const [money, setmoney] = useState(100);
   return (
-    <div className="App">
-      {process.env.NODE_ENV === "production" && <img src={Logo} alt=""></img>}
-    </div>
+    <>
+      <Header money={money} />
+      {products.map(product =>(
+        <Product product={product}/>
+      ))}
+    </>
   );
 }
 export default App;

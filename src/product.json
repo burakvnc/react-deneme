@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "title":"Sakız",
+        "price": 1
+
+    },
+    {
+        "id":2,
+        "title":"Ekmek",
+        "price": 5
+
+    },
+    {
+        "id":3,
+        "title":"Su",
+        "price": 3
+
+    }
+]
