@@ -2,19 +2,58 @@
     {
         "id":1,
         "title":"Sakız",
-        "price": 1
+        "price": 1,
+        "image":"https://www.karlidagmarket.com.tr/falim-tekli-sakiz-atistirmalik-742-68-B.jpg"
 
     },
     {
         "id":2,
         "title":"Ekmek",
-        "price": 5
+        "price": 5,
+        "image":"https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/05120000/05120000-a957e2.jpg"
 
     },
     {
         "id":3,
-        "title":"Su",
-        "price": 3
+        "title":"500 ml Su",
+        "price": 3,
+        "image":"https://productimages.hepsiburada.net/s/32/375/10377359851570.jpg"
+
+    },
+    {
+        "id":4,
+        "title":"1 Litre Süt",
+        "price": 15,
+        "image":"https://productimages.hepsiburada.net/s/52/500/11122718572594.jpg"
+
+    },
+    {
+        "id":5,
+        "title":"1 Kilo Pirinç",
+        "price": 15,
+        "image":"https://ayb.akinoncdn.com/products/2022/03/07/81201/712625a2-5c02-4eba-8eb2-9739c3f11c58_size780x780_quality60_cropCenter.jpg"
+
+    },
+    {
+        "id":6,
+        "title":"5 Litre Ayçiçek Yağı",
+        "price": 240,
+        "image":"https://productimages.hepsiburada.net/s/158/500/110000115512664.jpg"
+
+    },
+    {
+        "id":7,
+        "title":"Makarna",
+        "price": 14,
+        "image":"https://productimages.hepsiburada.net/s/61/375/110000003121694.jpg"
+
+    },
+    {
+        "id":8,
+        "title":"3 Kilo Yoğurt",
+        "price": 43,
+        "image":"https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/12501551/12501551-72ecdc-1650x1650.jpg"
 
     }
+
 ]

@@ -1,22 +1,42 @@
-import React from 'react'
+import React from "react";
+import { moneyFormat } from "./helpers";
+import "../App.css";
+import Basket from "./Basket";
 
-const Header = ({money}) => {
+const Header = ({ resetBasket, products, basket, total, money }) => {
   return (
-    <div className='header'>Harcamak için {money} TL paranız var
-           <style jsx>{`
-       .header{
-        padding:10px;
-        background:#fff;
-        border:1px solid #ddd;
-        width:100%;
-        height:50px;
-        text-align:center;
-        font-size:35px;
-       }
-       `}</style>
-       </div>
-    
-  )
-}
+    <div className="header">
+      <div className="dropdown">
+        <button className="dropbtn" placeholder="Sepetimiz">
+          Sepetim
+        </button>
+        <div class="dropdown-content">
+          {total > 0 && (
+            <Basket
+              resetBasket={resetBasket}
+              total={total}
+              products={products}
+              basket={basket}
+            />
+          )}
+        </div>
+      </div>
+      <div className="heads">
+        {total > 0 && money - total !== 0 && (
+          <div>
+            Harcamak için <span>{moneyFormat(money - total)}</span> TL paranız
+            var!
+          </div>
+        )}
+        {total === 0 && (
+          <div>
+            Harcamak için <span>{moneyFormat(money)}</span> TL paranız var!
+          </div>
+        )}
+        {money - total === 0 && <div>Paran Bitti.</div>}
+      </div>
+    </div>
+  );
+};
 
-export default Header
+export default Header;
