@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=vWL5_Lapr7w
 
 Çalıştırmak için:
 <a name="Kütüphaneler"></a>
-## Çalıştırmak için:
+## Kütüphaneler:
 
 Npm ile:
 ```bash
