@@ -2,13 +2,13 @@ import React from "react";
 import { moneyFormat } from "./helpers";
 import "../App.css";
 import Basket from "./Basket";
+import { BsFillBagFill } from 'react-icons/bs';
 
 const Header = ({ resetBasket, products, basket, total, money }) => {
   return (
     <div className="header">
       <div className="dropdown">
-        <button className="dropbtn" placeholder="Sepetimiz">
-          Sepetim
+        <button className="dropbtn" placeholder="Sepetimiz"><BsFillBagFill/>
         </button>
         <div class="dropdown-content">
           {total > 0 && (
