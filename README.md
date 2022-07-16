@@ -34,3 +34,4 @@ With Yarn
 ```bash
 yarn start
 ```
+https://react-deneme-okak2dswn-burakvnc.vercel.app/
