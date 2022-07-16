@@ -1,8 +1,8 @@
 Bu bir minik market uygulamasıdır.
 Kaynakları Prototürk Youtube Kanalının videosunu izleyerek elde ettim.
-https://github.com/tayfunerbilen
+## https://github.com/tayfunerbilen
 -Video linki
-https://www.youtube.com/watch?v=vWL5_Lapr7w
+## https://www.youtube.com/watch?v=vWL5_Lapr7w
 
 Çalıştırmak için:
 <a name="Kütüphaneler"></a>
