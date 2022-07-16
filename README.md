@@ -1,13 +1,14 @@
-## Bu bir minik market uygulamasıdır.
-## Kaynakları Prototürk Youtube Kanalının videosunu izleyerek elde ettim.
-## Deniyorum Sadece...
-```bash
-https://github.com/tayfunerbilen
+``` bash
+Bu bir minik market uygulamasıdır.
+Kaynakları Prototürk Youtube Kanalının videosunu izleyerek elde ettim.
+Deniyorum Sadece...
 ```
-## Video linki
-```bash
-https://www.youtube.com/watch?v=vWL5_Lapr7w
+## https://github.com/tayfunerbilen
+``` bash
+Video linki
 ```
+## https://www.youtube.com/watch?v=vWL5_Lapr7w
+
 Çalıştırmak için:
 <a name="Kütüphaneler"></a>
 ## Kütüphaneler:
