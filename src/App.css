@@ -3,8 +3,9 @@ body {
   margin: 0;
 }
 .header {
-  position: sticky;
+  position: fixed;
   background: #0F2539;
+  width: 100%;
   top: 0;
   height: 75px;
   font-weight: 500;
@@ -14,6 +15,7 @@ body {
   font-size: 35px;
   color: #B2D68E;
   letter-spacing: 2px;
+  z-index: 1;
 }
 .heads {
   position: absolute;
@@ -27,12 +29,12 @@ body {
   display: flex;
   float: left;
   width: 100%;
-  margin-top: 1%;
+  margin-top: 4%;
 }
 .prod {
   position: relative;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 17%;
+  margin-right: 15%;
   margin-top: 1%;
   display: flex;
   flex-wrap: wrap;
@@ -46,7 +48,8 @@ body {
 .product {
   position: relative;
   padding: 10px;
-  width: 20%;
+  width: 15%;
+  height: 310px;
   margin-left: 1%;
   background: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
@@ -55,6 +58,7 @@ body {
 }
 .product img {
   max-width: 100%;
+  height: 40%;
 }
 .amount {
   color: black;
@@ -204,4 +208,12 @@ body {
 }
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.sticky + .content {
+  padding-top: 102px;
 }

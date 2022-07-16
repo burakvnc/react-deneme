@@ -54,6 +54,160 @@
         "price": 43,
         "image":"https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/12501551/12501551-72ecdc-1650x1650.jpg"
 
+    },
+    {
+        "id":9,
+        "title":"30'lu Yumurta",
+        "price": 60,
+        "image":"https://reimg-carrefour.mncdn.com/mnresize/600/600/productimage/30098630/30098630_0_MC/8797011247154_1499978070917.jpg"
+
+    },
+    {
+        "id":10,
+        "title":"Portakal",
+        "price": 15,
+        "image":"https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/27304007/portakal-kg-72075c-1650x1650.jpg"
+
+    },
+    {
+        "id":11,
+        "title":"Mercimek",
+        "price": 30,
+        "image":"https://albakgida.com/wp-content/uploads/2020/05/KIRMIZI-MERCIMEK-scaled.jpg"
+
+    },
+    {
+        "id":12,
+        "title":"Kilo Tavuk",
+        "price": 33,
+        "image":"https://reimg-carrefour.mncdn.com/mnresize/600/600/productimage/30089743/30089743_0_MC/8796906127410_1604496325001.jpg"
+
+    },
+    {
+        "id":13,
+        "title":"Pırasa",
+        "price": 13,
+        "image":"https://www.hepsiyenir.com/Uploads/UrunResimleri/pirasa-abce.jpg"
+
+    },
+    {
+        "id":14,
+        "title":"Margarin",
+        "price": 13,
+        "image":"https://reimg-carrefour.mncdn.com/mnresize/600/600/productimage/30096721/30096721_0_MC/8796974841906_1584963415161.jpg"
+
+    },
+    {
+        "id":15,
+        "title":"2500gr Kuru Fasulye",
+        "price": 160,
+        "image":"https://cdn.dsmcdn.com/ty456/product/media/images/20220618/1/127003090/502277856/1/1_org_zoom.jpg"
+
+    },
+    {
+        "id":16,
+        "title":"Elma",
+        "price": 14,
+        "image":"https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/27130044/elma-golden-kg-7c53f2-1650x1650.jpg"
+
+    },
+    {
+        "id":17,
+        "title":"Kira 2+1",
+        "price":2750,
+        "image":"https://imaj.emlakjet.com/listing/11477733/DCD21ED1DC37422A747F8461CBC8CED411477733.jpg"
+
+    },
+    {
+        "id":18,
+        "title":"Elektrik Faturası",
+        "price": 250,
+        "image":"https://www.faturago.com/images/enerjisa_fatura_ornegi.png"
+
+    },
+    {
+        "id":19,
+        "title":"Su Faturası",
+        "price": 89,
+        "image":"https://mobile.donanimhaber.com/store/2b/64/49/2b6449b510d2f5ebd3ca7d4e55e03fb0.JPG"
+
+    },
+    {
+        "id":20,
+        "title":"Doğalgaz Faturası",
+        "price": 125,
+        "image":"https://mobile.donanimhaber.com/store/2b/64/49/2b6449b510d2f5ebd3ca7d4e55e03fb0.JPG"
+
+    },
+    {
+        "id":21,
+        "title":"Peynir",
+        "price": 126,
+        "image":"https://reimg-carrefour.mncdn.com/mnresize/600/600/productimage/30093410/30093410_0_MC/8796953247794_1646226821132.jpg"
+
+    },
+    {
+        "id":22,
+        "title":"Zeytin",
+        "price": 53,
+        "image":"https://reimg-carrefour.mncdn.com/mnresize/600/600/productimage/30321321/30321321_0_MC/8831189450802_1619784863153.jpg"
+
+    },
+    {
+        "id":23,
+        "title":"Çay",
+        "price": 70,
+        "image":"https://reimg-carrefour.mncdn.com/mnresize/600/600/productimage/30037044/30037044_0_MC/8796518907954_1499977087970.jpg"
+
+    },
+    {
+        "id":24,
+        "title":"Bulaşık Deterjanı",
+        "price": 38,
+        "image":"https://reimg-carrefour.mncdn.com/mnresize/600/600/productimage/30255205/30255205_0_MC/8817523556402_1652349784756.jpg"
+
+    },
+    {
+        "id":25,
+        "title":"Çamaşır Deterjanı",
+        "price": 80,
+        "image":"https://reimg-carrefour.mncdn.com/mnresize/600/600/productimage/30058274/30058274_0_MC/8796666658866_1647347173862.jpg"
+
+    },
+    {
+        "id":26,
+        "title":"Tuvalet Kağıdı",
+        "price": 130,
+        "image":"https://reimg-carrefour.mncdn.com/mnresize/600/600/productimage/30037787/30037787_0_MC/8814807318578_1564667531494.jpg"
+
+    },
+    {
+        "id":27,
+        "title":"Kilo Şeker",
+        "price": 17,
+        "image":"https://reimg-carrefour.mncdn.com/mnresize/600/600/productimage/30034138/30034138_0_MC/8796500951090_1499977055521.jpg"
+
+    },
+    {
+        "id":28,
+        "title":"Şampuan",
+        "price": 72,
+        "image":"https://reimg-carrefour.mncdn.com/mnresize/600/600/productimage/30389265/30389265_0_MC/8841226453042_1651920755249.jpg"
+
+    },
+    {
+        "id":29,
+        "title":"Duş Jeli",
+        "price": 60,
+        "image":"https://reimg-carrefour.mncdn.com/mnresize/600/600/productimage/30346816/30346816_0_MC/8837023989810_1634276389952.jpg"
+
+    },
+    {
+        "id":30,
+        "title":"Yağ Çözücü",
+        "price": 24,
+        "image":"https://reimg-carrefour.mncdn.com/mnresize/600/600/productimage/30285107/30285107_0_MC/8822899474482_1652345949432.jpg"
+
     }
 
 ]
