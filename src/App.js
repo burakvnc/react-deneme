@@ -2,12 +2,15 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import Header from "./components/Header";
 import products from "./product.json";
+import Basket from "./components/Basket";
 import Product from "./components/Product";
+import { BsFillBagFill } from "react-icons/bs";
 
 function App() {
   const [money, setmoney] = useState(5500);
   const [basket, setbasket] = useState([]);
   const [total, setTotal] = useState(0);
+  const [query, setQuery] = useState("");
   const resetBasket = () => {
     setbasket([]);
   };
@@ -31,8 +34,12 @@ function App() {
         basket={basket}
         money={money}
         setmoney={setmoney}
+        query={query}
+        setQuery={setQuery}
       />
       <div className="body">
+        <div className="left">
+        </div>
         <div className="prod">
           {products.map((product) => (
             <Product
@@ -44,6 +51,23 @@ function App() {
               product={product}
             />
           ))}
+        </div>
+        <div className="right">
+          <div className="dropdown">
+            <button className="dropbtn" placeholder="Sepetimiz">
+              <BsFillBagFill />
+            </button>
+            <div className="dropdown-content">
+              {total > 0 && (
+                <Basket
+                  resetBasket={resetBasket}
+                  total={total}
+                  products={products}
+                  basket={basket}
+                />
+              )}
+            </div>
+          </div>
         </div>
       </div>
     </>

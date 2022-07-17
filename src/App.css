@@ -1,5 +1,5 @@
 body {
-  background-color: #35414B;
+  background-color: #F3EDE1;
   margin: 0;
 }
 .header {
@@ -15,7 +15,7 @@ body {
   font-size: 35px;
   color: #B2D68E;
   letter-spacing: 2px;
-  z-index: 1;
+  z-index: 9999;
 }
 .heads {
   position: absolute;
@@ -33,28 +33,28 @@ body {
 }
 .prod {
   position: relative;
-  margin-left: 17%;
-  margin-right: 15%;
   margin-top: 1%;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px 20px;
   padding: 10px;
-  background: #35414B;
-  width: 100%;
+  background: #F3EDE1;
+  width: 50%;
   text-align: center;
+  justify-content: center;
   height: fit-content;
+}
+.left{
+  position: relative;
+  width:20%;
 }
 .product {
   position: relative;
   padding: 10px;
   width: 15%;
   height: 310px;
-  margin-left: 1%;
-  background: rgb(255, 255, 255);
-  border: 1px solid rgb(0, 0, 0);
+  background: #F3EDE1;
+  border: 1px solid wheat;
   text-align: center;
-  border-radius: 30px;
 }
 .product img {
   max-width: 100%;
@@ -127,18 +127,24 @@ body {
 .basket {
   position: relative;
   text-align: center;
-  flex-direction: column;
+  display: flex;
+  margin-left: 2%;
   margin-bottom: 5px;
   color: #D2C73E;
   height: auto;
 }
 .basket img {
   position: relative;
-  margin-top: 4%;
-  max-width: 15%;
+  justify-content: center;
+  max-width:10%;
+  max-height: 10%;
+  margin-top: 3%;
+  pointer-events: none
 }
 .basket h2{
   font-size: 15px;
+  margin-left: 5%;
+  pointer-events: none
 }
 .basket2 {
   position: relative;
@@ -169,6 +175,9 @@ body {
   position: relative;
   top: 1px;
 }
+.right{
+  background-color: #2f6627;
+}
 .dropbtn {
   background-color: #0F2539;
   color: white;
@@ -179,27 +188,27 @@ body {
   border-radius: 50%;
   border: 1px solid white;
   cursor: pointer;
+  
 }
 
 .dropdown {
-  margin-left: -25%;
-  margin-right: 70%;
   display: inline-block;
-  position: relative;
+  position: fixed;
+  margin-left: 95%;
   flex-direction: column;
   width: 3%;
-  height: 75%;
+  height: 6%;
   padding: 10px;
+  
 }
 
 .dropdown-content {
   display: none;
-  margin-left: -20%;
-  position: absolute;
+  margin-left: -270%;
+  position: relative;
   background-color: #0F2539;
   width: 300px;
   margin-top: 10px;
-  z-index: 1;
   font-size: 20px;
   font-weight: 600;
 }
@@ -209,11 +218,21 @@ body {
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
+.ara{
+  position: absolute;
+  margin-right: 80%;
 }
-.sticky + .content {
-  padding-top: 102px;
+.search{
+  height: 25px;
+  z-index: 1;
+}
+.list{
+  position: absolute;
+  width: max-content;
+  background-color: #662727;
+  list-style-type: none;
+}
+.listItem{
+  list-style: none;
+  display: none;
 }

@@ -1,26 +1,19 @@
 import React from "react";
 import { moneyFormat } from "./helpers";
 import "../App.css";
-import Basket from "./Basket";
-import { BsFillBagFill } from 'react-icons/bs';
+import Product from "../product.json";
+const Header = ({
+  query,
+  setQuery,
+  resetBasket,
+  products,
+  basket,
+  total,
+  money,
+}) => {
 
-const Header = ({ resetBasket, products, basket, total, money }) => {
   return (
     <div className="header">
-      <div className="dropdown">
-        <button className="dropbtn" placeholder="Sepetimiz"><BsFillBagFill/>
-        </button>
-        <div class="dropdown-content">
-          {total > 0 && (
-            <Basket
-              resetBasket={resetBasket}
-              total={total}
-              products={products}
-              basket={basket}
-            />
-          )}
-        </div>
-      </div>
       <div className="heads">
         {total > 0 && money - total !== 0 && (
           <div>
@@ -34,6 +27,23 @@ const Header = ({ resetBasket, products, basket, total, money }) => {
           </div>
         )}
         {money - total === 0 && <div>Paran Bitti.</div>}
+      </div>
+      <div className="ara">
+      <input
+        type="text"
+        placeholder="Arama"
+        className="search"
+        onChange={(e) => setQuery(e.target.value)}
+      />
+      <ul className="list">
+        {Product.filter((products) =>
+          products.title.toLowerCase().includes(query)
+        ).map((products) => (
+          <li key={products.id} className="listItem">
+            {products.title}
+          </li>
+        ))}
+      </ul>
       </div>
     </div>
   );
